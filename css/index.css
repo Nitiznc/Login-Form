@@ -1,0 +1,70 @@
+body{
+    background-color: white;
+}
+.signin {
+    display: grid;
+    place-items: center;
+}
+
+.signin form h2 {
+    text-shadow: 4px 5px white;
+    width: 17rem;
+    display: block;
+    margin: 25px auto;
+}
+
+form h2 {
+    position: relative;
+    left: 40px;
+}
+
+.signin form {
+    background-color: #56e1d4;
+    position: relative;
+    height: 472px;
+    width: 500px;
+    padding: 5px 5px;
+    font-size: 40px;
+    margin-top: 65px;
+}
+
+label {
+    position: relative;
+    right: 44px;
+    display: block;
+    width: 25rem;
+    margin: 8px auto;
+}
+
+#mail {
+    background-color: #c3dedd;
+    border: 3px solid #706969;
+    border-radius: 5px;
+    width: 30rem;
+    display: block;
+    margin: 10px auto;
+    position: relative;
+    height: 40px;
+    font-size: 25px;
+}
+
+#id {
+    display: block;
+    width: 10rem;
+    margin: auto;
+}
+
+form {
+    text-decoration: none;
+}
+
+input{
+    font-size: 36px;
+    border: 3px solid #8f9a8f;
+    text-align: center;
+    display: block;
+    margin-left: 182px;
+    margin-top: 20px;
+    background-color: cyan;
+    color: rgb(83, 81, 81);
+}
